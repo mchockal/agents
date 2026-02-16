@@ -15,7 +15,7 @@ async function main() {
       "src/mcp/x402.ts",
       "src/observability/index.ts",
       "src/codemode/ai.ts",
-      "src/memory/index.ts"
+      "src/experimental/memory/index.ts"
     ],
     skipNodeModulesBundle: true,
     external: ["cloudflare:workers", "cloudflare:email"],

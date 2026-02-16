@@ -153,6 +153,11 @@
       "types": "./dist/ai-types.d.ts",
       "import": "./dist/ai-types.js",
       "require": "./dist/ai-types.js"
+    },
+    "./experimental/memory": {
+      "types": "./dist/experimental/memory/index.d.ts",
+      "import": "./dist/experimental/memory/index.js",
+      "require": "./dist/experimental/memory/index.js"
     }
   },
   "publishConfig": {
