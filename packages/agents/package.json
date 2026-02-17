@@ -174,10 +174,11 @@
     "check:test:react": "vitest -r src/react-tests --watch false",
     "check:test:workers": "vitest -r src/tests --watch false",
     "evals": "(cd evals; evalite)",
-    "test": "npm run test:workers && npm run test:react && npm run test:cli",
+    "test": "npm run test:workers && npm run test:react && npm run test:cli && npm run test:memory",
     "test:cli": "vitest -r src/cli-tests",
     "test:react": "vitest -r src/react-tests",
     "test:e2e": "vitest run src/e2e/e2e.test.ts --sequence.concurrent",
+    "test:memory": "vitest run --config src/experimental/memory/__tests__/vitest.config.ts",
     "test:workers": "vitest -r src/tests"
   }
 }
